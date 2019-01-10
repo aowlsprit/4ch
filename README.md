@@ -13,7 +13,6 @@ npm install -g 4ch
 ```
 
 ## Commands (CLI)
-
 ```
 4ch [ls|dl|cat] [options]
 
@@ -31,10 +30,14 @@ DESCRIPTION
 
 ## Usage (API)
 ```js
-const { getImages, printCatalog } = require('4ch')
+const {
+  downloadThreadImages,
+  getBoardCatalog,
+  getThread } = require('4ch')
 
-printCatalog('g')
-getImages('g', '123456789')
+const threads = await getBoardCatalog('g')
+const posts = await getThread('g', '123456789')
+const images = await downloadThreadImages('g', '123456789')
 ```
 
 
