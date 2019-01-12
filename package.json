@@ -1,6 +1,6 @@
 {
   "name": "4ch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Limited 4chan API and CLI",
   "main": "index.js",
   "author": "@aowlsprit",
