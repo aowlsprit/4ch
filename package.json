@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "@aowlsprit",
   "license": "MIT",
+  "repository": "https://github.com/aowlsprit/4ch",
   "private": false,
   "scripts": {
     "lint": "standard '**/*.js'"
